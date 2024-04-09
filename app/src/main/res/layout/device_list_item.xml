@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_shadow_start_color"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/deviceNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#E11919" />
+
+    <TextView
+        android:id="@+id/vendorIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/manufacturerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/emptyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/deviceClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/deviceProtocol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/configurationCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/deviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0EEF12" />
+
+    <Button
+        android:id="@+id/vBtnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send" />
+
+    <Button
+        android:id="@+id/vBtnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get" />
+</LinearLayout>
